@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Learning</title>
+    <!-- CDN LINK - Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <style>
       /*Name Selector*/
-       p{
-            color: cadetblue;
-        }/*
+      p {
+        color: cadetblue;
+      } /*
         /*Id Selector*/
-      
+
       #java {
         color: cadetblue;
         font-size: larger;
@@ -24,11 +29,11 @@
       /*#java,.NonDeveloper {
         background-color: cornflowerblue;
       }*/
-      #web{
+      #web {
         color: #f17d56;
         background-color: black;
       }
-      #learning{
+      #learning {
         text-decoration: underline;
         font-size: larger;
         font-weight: bolder;
@@ -36,8 +41,13 @@
         color: rgb(255, 136, 0);
         text-align: center;
         font-style: italic;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      ol li {
+        list-style-type: lower-roman;
+        padding: 5px;
+        background-color: #f17d56;
       }
     </style>
   </head>
@@ -52,7 +62,24 @@
     <h2>Skiils</h2>
     <p style="font-weight: bolder">HTML and CSS</p>
     <p>JavaScript</p>
-    <p> I am very good in <span id="web"> Web Development </span>  and DSA </p>
-    <p id="learning"> I am learning CSS and Enjoying too.  </p>
+    <p>I am very good in <span id="web"> Web Development </span> and DSA</p>
+    <p id="learning">I am learning CSS and Enjoying too.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed aut eligendi temporibus doloribus animi ex consectetur tempore excepturi eaque, magnam omnis laudantium adipisci tenetur inventore dicta dignissimos, architecto beatae voluptatibus.</p>
+    <hr />
+    <h2>List of Friends</h2>
+    <ol id="Friends">
+      <li>Anushka</li>
+      <li>Omkar</li>
+      <li>Ankita</li>
+      <li>Shahadat</li>
+    </ol>
+    <h2>List Of Languages</h2>
+    <ul id="lang">
+      <li>Python</li>
+      <li>C language</li>
+      <li>HTML</li>
+      <li>Python</li>
+    </ul>
+    <i class="fa-solid fa-user"></i><span>Sakshi</span>
   </body>
 </html>
